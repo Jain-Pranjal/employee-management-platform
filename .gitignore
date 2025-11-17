@@ -1,0 +1,56 @@
+**/__pycache__/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.local
+.env.prod
+
+# VS Code / PyCharm / IDE files
+.vscode/
+.idea/
+
+# Byte-compiled / cache
+*.egg-info/
+*.egg
+.eggs/
+.Python
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Testing
+.coverage
+coverage.xml
+pytest_cache/
+
+# Migrations cache (but not actual migrations)
+# Uncomment the line below ONLY if you want to ignore migrations (usually keep them in git)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+postgres_data/

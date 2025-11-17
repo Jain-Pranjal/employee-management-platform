@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+env/
+venv/
+.git/
+
+notes.md
+*.sqlite3
+*.log
+*.env
+
+
+# Ignore git stuff
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local DB (if using SQLite)
+db.sqlite3
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Tests & coverage
+pytest_cache/
+.coverage
+coverage.xml
+
+# Docker-compose override files (if you have local-only)
+docker-compose.override.yml
