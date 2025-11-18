@@ -17,7 +17,9 @@ class EmployeeViewSet(mixins.CreateModelMixin
 
 
 
-class DepartmentViewSet(mixins.CreateModelMixin,viewsets.GenericViewSet):
+class DepartmentViewSet(mixins.CreateModelMixin,
+                        mixins.RetrieveModelMixin,
+                        viewsets.GenericViewSet):
     queryset = Department.objects.all()
     serializer_class = DepartmentSerializer
     permission_classes = [AllowAny]
@@ -30,3 +32,6 @@ class RoleViewSet(mixins.CreateModelMixin,viewsets.GenericViewSet):
     permission_classes = [AllowAny]
 
 
+
+
+ 

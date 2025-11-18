@@ -8,14 +8,14 @@ admin.site.index_title = "Welcome to Employee Management Portal"
 
 @admin.register(Department)
 class DepartmentAdmin(admin.ModelAdmin):
-    list_display = ('name', 'location')
+    list_display = ('id','name', 'location')
     search_fields = ('name',)
     list_filter = ('location',)
 
 
 @admin.register(Role)
 class RoleAdmin(admin.ModelAdmin):
-    list_display = ('title','description')
+    list_display = ('id','title','description')
     search_fields = ('title',)
 
 
