@@ -21,3 +21,14 @@ django-admin startproject core .
 ```py
 docker compose up
 ```
+
+
+
+## connect to the postgresql database
+```
+docker exec -it employee_management_db  psql -U postgres -d postgres
+
+
+U is username
+d is the database name
+```
